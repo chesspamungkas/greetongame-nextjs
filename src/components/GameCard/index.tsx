@@ -19,12 +19,12 @@ const GameCard = ({ content }: Props): ReactElement => {
 		switch (p.trim()) {
 			case BROWSER:
 				icon = (
-					<Image key={`${id}-browser`} src={browserIcon} alt='browser icon' className='game-card__img-icon' />
+					<Image key={`${id}-browser`} src={browserIcon} alt='browser icon' className='game-card__img-icon' width={0} height={0} sizes="100vw" priority={true} />
 				)
 				break
 			case PC:
 				icon = (
-					<Image key={`${id}-pc`} src={pcIcon} alt='pc icon' className='game-card__img-icon' />
+					<Image key={`${id}-pc`} src={pcIcon} alt='pc icon' className='game-card__img-icon' width={0} height={0} sizes="100vw" priority={true} />
 				)
 				break
 			default:
@@ -37,7 +37,7 @@ const GameCard = ({ content }: Props): ReactElement => {
 		<div className="game-card group">
 			<a className='game-card__link-styled cursor-pointer' onClick={() => setIsOpen(true)}>
 				<div className='relative w-full object-contain'>
-					<img src={thumbnail} alt={`${title}-logo`} className='object-contain rounded-t-3xl' />
+					<Image src={thumbnail} alt={`${title}-logo`} className='object-fit rounded-t-3xl' width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} priority={true} />
 				</div>
 				<div className='game-card__content'>
 					<h2 className='game-card__content-title'>{title}</h2>

@@ -88,7 +88,6 @@ const GameListContainer = (): ReactElement => {
 
 	useEffect(() => {
 		if (filter.search !=="") {
-			console.log("A")
 			setGameData(filterGames().slice(0,10));
 			setAllGames(filterGames());
 		}
@@ -100,10 +99,8 @@ const GameListContainer = (): ReactElement => {
 			} else {
 				setGameData(games);
 				setAllGames(games);
-			}
-			
-		}
-		
+			}		
+		}		
 	}, [games]);
 
 	return (

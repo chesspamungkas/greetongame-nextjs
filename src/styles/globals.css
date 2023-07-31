@@ -43,7 +43,7 @@ h1 {
 }
 
 .home__games-wrapper {
-  @apply grid 2xl:grid-cols-5 xl:grid-cols-3 md:grid-cols-2 grid-cols-1 w-full gap-8 pt-14;
+  @apply grid 2xl:grid-cols-5 xl:grid-cols-3 md:grid-cols-2 grid-cols-1 w-full gap-8 pt-8;
 }
 
 .home__error-container {

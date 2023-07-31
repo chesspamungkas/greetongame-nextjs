@@ -65,13 +65,19 @@ const NavBar = () => {
             >
               <ul className="items-center justify-center space-y-4 md:flex md:space-x-6 md:space-y-0">
                 <li className="text-white">
-                  <a href="/" className="border-b-2 border-transparent hover:text-secondary-orange dark:hover:text-gray-200 hover:border-blue-500 mx-1.5 sm:mx-6">Home</a>
+                  <Link href='/' className="border-b-2 border-transparent hover:text-secondary-orange dark:hover:text-gray-200 hover:border-blue-500 mx-1.5 sm:mx-6">
+                    Home
+                  </Link>
                 </li>
                 <li className="text-white">
-                <a href="/game-developers" className="border-b-2 border-transparent hover:text-secondary-orange dark:hover:text-gray-200 hover:border-blue-500 mx-1.5 sm:mx-6">Game Developers</a>
+                  <Link href='/game-developers' className="border-b-2 border-transparent hover:text-secondary-orange dark:hover:text-gray-200 hover:border-blue-500 mx-1.5 sm:mx-6">
+                    Game Developers
+                  </Link>
                 </li>
                 <li className="text-white">
-                <a href="/game-genres" className="border-b-2 border-transparent hover:text-secondary-orange dark:hover:text-gray-200 hover:border-blue-500 mx-1.5 sm:mx-6">Game Genres</a>
+                  <Link href='/game-genres' className="border-b-2 border-transparent hover:text-secondary-orange dark:hover:text-gray-200 hover:border-blue-500 mx-1.5 sm:mx-6">
+                    Game Genres
+                  </Link>
                 </li>
               </ul>
             </div>

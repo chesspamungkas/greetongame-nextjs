@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect } from 'react'
 import axios from 'axios'
 import { Game } from '@/types'
 import { API_HOST, API_KEY } from './constants'
@@ -23,7 +23,7 @@ const useFetch = (params: Filter): Response => {
 	} else {
 		sortBy !== "" ? newParams= {...newParams, 'sort-by' : sortBy} :''
 	}
-	console.log(newParams)
+
 	const fetchData = () => {
 		axios
 		.get('/games', {
@@ -80,7 +80,7 @@ const useFetch = (params: Filter): Response => {
 			fetchData();
 
 		} else
-		fetchData();
+			fetchData();
 		
 	}, [search, platform, category, sortBy, filter])
 
