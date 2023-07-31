@@ -2,26 +2,154 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+html {
+  height: 100%;
 }
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  height: 100%;
+  font-family: "Manrope", sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  @apply font-bold text-2xl sm:text-3xl lg:text-4xl capitalize;
+}
+
+.max-width {
+  @apply max-w-[1440px] mx-auto;
+}
+
+.padding-x {
+  @apply sm:px-16 px-6;
+}
+
+.padding-y {
+  @apply py-4;
+}
+
+.flex-between {
+  @apply flex justify-between items-center;
+}
+
+.home__text-container {
+  @apply flex flex-col text-center items-center justify-center gap-y-2 text-black-100 mt-16 md:mt-20 lg:mt-24;
+}
+
+.home__filters {
+  @apply pt-8 pb-8 w-full flex-between items-center flex-wrap gap-5;
+}
+
+.home__games-wrapper {
+  @apply grid 2xl:grid-cols-5 xl:grid-cols-3 md:grid-cols-2 grid-cols-1 w-full gap-8 pt-14;
+}
+
+.home__error-container {
+  @apply mt-16 flex justify-center items-center flex-col gap-2;
+}
+
+.game-card {
+  @apply flex flex-col p-3 justify-center items-start text-black-100 bg-primary-color hover:bg-secondary-orange hover:shadow-md rounded-3xl;
+}
+
+.game-card__link-styled {
+  @apply w-full inline-block bg-gray-800 rounded-3xl no-underline;
+}
+
+.game-card__content {
+  @apply min-h-[130px] p-2.5 whitespace-nowrap;
+}
+
+.game-card__content-title {
+  @apply text-[22px] leading-[26px] font-bold capitalize text-primary-text-color truncate;
+}
+
+.game-card__description {
+  @apply text-base text-[#7a8288] mb-8 truncate;
+}
+
+.developer-card__id {
+  @apply text-center text-[#fff] mb-0 text-[22px];
+}
+
+.game-card__genre {
+  @apply rounded text-xs font-bold text-[#272b30] bg-[#7a8288] float-left ml-0 mr-2 my-0 px-1 py-0.5;
+}
+
+.game-card__img-icon {
+  @apply w-5 h-5 float-right mr-2;
+}
+
+.game-details__dialog-panel {
+  @apply relative w-full max-w-lg max-h-[90vh] overflow-y-auto transform rounded-2xl bg-white p-6 text-left shadow-xl transition-all flex flex-col gap-5;
+}
+
+.game-details__close-btn {
+  @apply absolute top-2 right-2 z-10 w-fit p-2 bg-primary-blue-100 rounded-full;
+}
+
+.searchbar {
+  @apply flex items-center justify-start max-sm:flex-col w-full relative max-sm:gap-4;
+}
+
+.searchbar__item {
+  @apply flex-1 max-sm:w-full flex justify-start items-center relative;
+}
+
+.searchbar__input {
+  @apply w-full h-[40px] pl-12 p-4 rounded-full cursor-pointer text-base;
+}
+
+.search-game {
+  @apply flex-1 md:mr-4 max-sm:w-full flex justify-start items-center;
+}
+
+.search-game__input {
+  @apply md:min-w-[300px] max-sm:w-full h-[42px] pl-6 rounded-full outline-none cursor-pointer;
+}
+
+.custom-filter__btn {
+  @apply w-full h-[42px] flex justify-between items-center cursor-default rounded-full bg-white py-2 px-3 text-left shadow-md border;
+}
+
+.custom-filter__options {
+  @apply absolute mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm;
+}
+
+.footer {
+  @apply flex flex-col text-black-100  mt-5 border-t border-gray-100;
+}
+
+.footer__links-container {
+  @apply flex max-md:flex-col flex-wrap justify-between gap-5 sm:px-16 px-6 py-10;
+}
+
+.footer__rights {
+  @apply flex flex-col justify-start items-start gap-6;
+}
+
+.footer__links {
+  @apply flex-1 w-full flex md:justify-end flex-wrap max-md:mt-10 gap-20;
+}
+
+.footer__link {
+  @apply flex flex-col gap-6 text-base min-w-[170px];
+}
+
+.footer__copyrights {
+  @apply flex justify-between items-center flex-wrap mt-10 border-t border-gray-100 sm:px-16 px-6 py-10;
+}
+
+.footer__copyrights-link {
+  @apply flex-1 flex sm:justify-end justify-center max-sm:mt-4 gap-10;
+}
+
+.form {
+  @apply flex justify-between text-[#7a8288] box-border mx-auto my-6 px-4 py-0;
+}
+
+.label {
+  @apply basis-1/5 mr-4 last-of-type:mr-0 md:basis-0 lg:basis-0;
 }

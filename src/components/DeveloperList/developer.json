@@ -1,0 +1,77 @@
+[
+	{	
+        "id": 1,
+		"title": "Bandai Namco",
+		"description": "Bandai Namco Entertainment Inc. is a Japanese multinational video game publisher headquartered in Minato-ku, Tokyo. Its international branches, Bandai Namco Entertainment America and Bandai Namco Europe, are respectively headquartered in Irvine, California, and Lyon, France."
+	},
+	{
+        "id": 2,
+		"title": "Bigpoint",
+		"description": "Bigpoint GmbH is a German video game developer. The company develops stand-alone browser-based games as well as social network games. Bigpoint has over 200 million registered users."
+	},
+	{
+        "id": 3,
+		"title": "Blizzard Entertainment",
+		"description": "Blizzard Entertainment, Inc. is an American video game developer and publisher based in Irvine, California."
+	},
+	{
+        "id": 4,
+		"title": "Darkflow Software",
+		"description": "Darkflow Software is a video game studio focused on developing AAA online games for all platforms. Our portfolio includes Enlisted and CRSED: F.O.A.D. (formerly known as Cuisine Royale) online shooters available on PC and consoles, and we’re also working on a few unannounced projects. Darkflow Software was founded by a team of industry veterans in 2016 in Riga, Latvia."
+	},
+	{
+        "id": 5,
+		"title": "GPRO.net",
+		"description": "Grand Prix Racing Online was created by a group of dedicated players of F1 manager web games."
+	},
+	{
+        "id": 6,
+		"title": "Infinity Ward",
+		"description": "Infinity Ward, Inc. is an American video game developer. They developed the video game Call of Duty, along with seven other installments in the Call of Duty series. Vince Zampella, Grant Collier, and Jason West established Infinity Ward in 2002 after working at 2015, Inc. previously."
+	},
+	{
+        "id": 7,
+		"title": "InnoGames",
+		"description": "InnoGames GmbH is a German video game developer and publisher based in Hamburg. Founded in 2007, it focuses on the development of free-to-play online browser and mobile games. The company reached a turnover of €220 million in 2020 and currently has ten live games."
+	},
+	{
+        "id": 8,
+		"title": "KRAFTON, Inc.",
+		"description": "Krafton Inc. is a South Korean video game holding company based in Bundang-gu, Seongnam. It was created in November 2018 to serve as the parent company for Bluehole, founded by Chang-Byung-gyu in Seoul in March 2007, and its subsidiaries."
+	},
+	{
+        "id": 9,
+		"title": "Mediatonic",
+		"description": "Bandai Namco Entertainment Inc. is a Japanese multinational video game publisher headquartered in Minato-ku, Tokyo. Its international branches, Bandai Namco Entertainment America and Bandai Namco Europe, are respectively headquartered in Irvine, California, and Lyon, France"
+	},
+	{
+        "id": 10,
+		"title": "miHoYo",
+		"description": "Mediatonic Limited is a British video game developer based in London. The company was founded in September 2005 by Brunel University students Dave Bailey and Paul Croft, releasing their first game, Snowman Salvage in December that year."
+	},
+	{
+        "id": 11,
+		"title": "Player First Games",
+		"description": "Player First Games is a new game company founded to create games to serve under-served and passionate communities of gamers. Started by industry veterans,"
+	},
+	{
+        "id": 12,
+		"title": "Riot Games",
+		"description": "Riot Games, Inc. is an American video game developer, publisher, and esports tournament organizer based in Los Angeles, California."
+	},
+	{
+        "id": 13,
+		"title": "Smilegate RPG",
+		"description": "Smilegate is a South Korean video game company headquartered in Pangyo. It develops, publishes, and services online games on mobile and PC platforms."
+	},
+	{
+        "id": 14,
+		"title": "Turn 10",
+		"description": "Turn 10 Studios is an American video game developer based in Redmond, Washington. The company was established in 2001 under Microsoft Game Studios to develop the Forza Motorsport series for Xbox platforms. The most recent game developed solely by Turn 10 is Forza Motorsport 7, released in 2017."
+	},
+	{
+        "id": 15,
+		"title": "YOOZOO Games",
+		"description": "Yoozoo Games is a video game developer and publisher of browser and mobile games, primarily massively multiplayer online games, in Asia, Europe and North America."
+	}
+]

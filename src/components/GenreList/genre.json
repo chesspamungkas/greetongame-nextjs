@@ -1,0 +1,57 @@
+[
+	{
+		"id": 1,
+		"title": "MMO",
+		"description": "Description MMO"
+	},
+	{
+		"id": 2,
+		"title": "MMORPG",
+		"description": "Description MMORPG"
+	},
+	{
+		"id": 3,
+		"title": "Shooter",
+		"description": "Description Shooter"
+	},
+	{
+		"id": 4,
+		"title": "Strategy",
+		"description": "Description Strategy"
+	},
+	{
+		"id": 5,
+		"title": "Moba",
+		"description": "Description Moba"
+	},
+	{
+		"id": 6,
+		"title": "Battle Royal",
+		"description": "Description Battle Royal"
+	},
+	{
+		"id": 7,
+		"title": "Card Games",
+		"description": "Description Card Games"
+	},
+	{
+		"id": 8,
+		"title": "Racing",
+		"description": "Description Racing"
+	},
+	{
+		"id": 9,
+		"title": "Sports",
+		"description": "Description Sports"
+	},
+	{
+		"id": 10,
+		"title": "Social",
+		"description": "Description Social"
+	},
+	{
+		"id": 11,
+		"title": "Fighting",
+		"description": "Description Fighting"
+	}
+]
